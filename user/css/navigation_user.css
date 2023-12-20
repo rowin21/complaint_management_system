@@ -1,0 +1,34 @@
+.navigation {
+    width: 35vh;
+    height: 79vh;
+
+    background-color: #272343;
+    margin-top: 0.5vh;
+}
+
+.nav_btn {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px 25px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid white;
+    background-color: #272343;
+    margin-bottom: 15px;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+ul{
+    padding-top: 25px;
+}
+.nav_btn:hover {
+    background-color: #bae8e8;
+    color: #272343;
+    cursor: pointer;
+}

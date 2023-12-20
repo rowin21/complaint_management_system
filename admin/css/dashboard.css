@@ -1,0 +1,266 @@
+.actionContainer {
+    display: flex;
+    width: 100%;
+}
+
+.action {
+    width: 170vh;
+    height: 79vh;
+    margin-top: 0.5vh;
+    padding: 10px;
+}
+
+.tab {
+    display: none;
+}
+
+.tab {
+    width: 100%;
+    padding: 5px;
+}
+
+.actionHeading{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.form {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    border: 2px solid black;
+    padding: 25px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.lableName {
+    padding: 5px;
+}
+
+.lableInput {
+    padding: 5px;
+}
+
+input[type="text"],input[type="email"],input[type="password"]{
+    padding: 5px;
+    border: none;
+    background: none;
+    border: 2px solid black;
+    width: 100%;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+select{
+    padding: 5px;
+    border: none;
+    background: none;
+    border: 2px solid black;
+    width: 100%;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+textarea {
+    padding: 5px;
+    border: none;
+    background: none;
+    border: 2px solid black;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.addBtn {
+    text-align: center;
+    padding: 5px;
+}
+
+.submit_btn {
+    background: none;
+    border: none;
+    padding: 10px 25px;
+    border: 1px solid black;
+    transition-duration: 0.5s;
+    border-radius: 50px;
+    color: #bae8e8;
+    background-color: #272343;
+}
+
+.submit_btn:hover{
+    background-color: #bae8e8;
+    color: #272343;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #bae8e8;
+    color: #272343;
+}
+
+.dash {
+    width: 300px;
+    /* background: aqua; */
+    font-size: 18px;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* add officer tab */
+
+.btns{    
+    margin-bottom: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.add-btn {
+    background: none;
+    border: none;
+    padding: 10px 25px;
+    border: 1px solid black;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+    background-color: #bae8e8;
+    margin-left: 15px;
+    width: 150px;
+}
+
+#officerForm{
+    width: 750px;
+    border: 2px solid #272343;
+    padding: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+.form_row{
+    display: flex;
+}
+
+.form_col{
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-100%);
+}
+
+.fromHeading{
+    width: 100%;
+    background-color: #bae8e8;
+    padding: 10px;
+    border-bottom: 5px solid #272343;
+    text-align: center;
+    color: #272343;
+    border-radius: 5px 5px 10px 10px;
+}
+
+.cancel_btn{
+    border: none;
+    background: none;
+    background-color: crimson;
+    width: 150px;
+    padding: 10px 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    margin-left: 30px;
+}
+
+.save_btn{
+    background: none;
+    border: none;
+    padding: 10px 25px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    margin-left: 30px;
+}
+
+.officerList{
+    width: 100%;
+    height: 60vh;
+    overflow-y: scroll;
+}
+
+.officerListHeading{
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: #272343;
+    color: #bae8e8;
+    border-bottom: 2px solid #bae8e8;
+    font-weight: bold;
+    width: 1200px;
+}
+.listHeading,.listHeading_15,.listHeading_25{
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 10px;
+}
+
+.listHeading{
+    width: 120px;
+}
+
+.listHeading_15{
+    width: 180px;
+}
+
+
+.listHeading_25{
+    width: 300px;
+}
+.officerListData{
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: #bae8e8;
+    width: 1200px;
+}
+
+.listData,.listData_15,.listData_25{
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+}
+
+.listData{
+    width: 120px;
+}
+
+.listData_15{
+    width: 180px;
+}
+
+.listData_25{
+    width: 300px;
+}
+.del_btn{
+    border: none;
+    background-color: none;
+    border: 1px solid white;
+    background-color: crimson;
+    padding: 5px 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.del_btn>a{
+    text-decoration: none;
+    color: white;
+}

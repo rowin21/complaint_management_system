@@ -1,0 +1,25 @@
+#msg,#msg_comp{
+    position: absolute;
+    bottom: 15%;
+    right: 2%;
+}
+div.successmsg{
+    background: green;
+    border: 1px solid #169c7b;
+    font-weight: bold;
+    padding: 10px;
+    width: 50%;
+    color: white;
+}
+div.errmsg{
+    background: crimson;
+    border: 1px solid #169c7b;
+    font-weight: bold;
+    padding: 10px;
+    width: 50%;
+    color: white;
+}
+
+#validDepartment,#validCategory{
+    color: crimson;
+}

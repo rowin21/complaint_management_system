@@ -1,0 +1,81 @@
+.regForm{
+    width: 40%;
+    padding: 10px;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.formHeading{
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #272343;
+    color: #bae8e8;
+    padding: 10px;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.field{
+    width: 90%;
+    border-width: 3px;
+    border-color: #272343;
+    color: #272343;
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 5%;
+    padding: 10px 5px;
+}
+
+input[type="text"],input[type="email"],input[type="password"],input[type="number"]{
+    border-style: none;
+    border-bottom: 2px solid black;
+    background: none;
+    color: black;
+    padding: 5px;
+    margin: 1px 10px;
+    width: 40%;
+}
+
+::placeholder{
+    color: #1a2238;
+}
+
+.drop-options{
+    border-style: none;
+    border-bottom: 2px solid black;
+    background: none;
+    color: black;
+    width: 50%;
+}
+.submit-btn{
+    margin-top: 10px;
+    padding: 10px;
+    background: #272343;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 40px;
+    color: white;
+}
+input[type="submit"]:hover {
+    background-color: #169c7b;
+    color:white;
+  }
+
+input[type="submit"]{
+    padding: 10px 15px;
+    background-color: #1BBA93;
+    font-size:17px;
+    color:white;
+    cursor:pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 35%;
+}
+
+.submit-btn a{
+    color: #1BBA93;
+}

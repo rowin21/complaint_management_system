@@ -1,0 +1,44 @@
+.navigation {
+  width: 35vh;
+  height: 79vh;
+  
+  background-color: #272343;
+  margin-top: 0.5vh;
+}
+
+.nav_btn{
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  margin: 5px 25px;
+  color: white;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid white;
+  background-color: #272343;
+}
+
+li:hover{
+  cursor: pointer;
+}
+.nav_btn:hover{
+  background-color: #bae8e8;
+  color: #272343;
+  cursor: pointer;
+}
+
+.add{
+  position: relative;
+  top: 25px;
+}
+
+.manage{
+  position: relative;
+  top: 50px;
+}
+
+.login{
+  position: relative;
+  top: 75px;
+}

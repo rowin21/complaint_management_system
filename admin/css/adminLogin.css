@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.log_header{
+    background-color: #272343;
+    width: 100%;
+    height: 10vh;
+    border-bottom-right-radius: 100px;
+}
+
+.cms{
+    color: #bae8e8;
+    position: relative;
+    left: 25px;
+    top: 30px;
+    font-size: 14px;
+    height: max-content;
+}
+
+.h_dummy
+{
+    width: 10vh;
+    height: 10vh;
+    background-color: #272343;
+    position: relative;
+    top: 40px;
+}
+
+.h_dummy1{
+    position: relative;
+    width: 10vh;
+    height: 10vh;
+    background-color: #ffffff;
+    top: -18px;
+    border-top-left-radius: 100px;
+}
+
+.log_container
+{
+    width: 90vh;
+    background-color: #272343;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,30%);
+    border-radius: 125px 15px;
+}
+
+.log_container>.img_container
+{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 20px;
+}
+
+.img_container>img
+{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+}
+
+.log_form
+{
+    height: 30vh;
+    padding: 20px;
+}
+
+.log_form_row1,.log_form_row2,.log_form_row3,.log_form_row4,.log_form_row5
+{
+    margin: 10px 0;
+    padding: 0 5px;
+}
+
+.log_form_row1>.heading
+{
+    color: #bae8e8;
+}
+
+input[type = "text"],input[type="password"]
+{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #bae8e8;
+    padding: 2px 0;
+    font-size: 12px;
+    width: 100%;
+}
+
+.log_form_row4>a
+{
+    font-size: 11px;
+    text-align: right;
+    color: #bae8e8 ;
+    float: right;
+}
+
+input[type = "submit"]
+{
+    margin-top: 10px;
+    background-color: rgb(19, 214, 19);
+    border: 1px solid white;
+    padding: 5px;
+    width: 75%;
+    color: white;
+    border-radius: 15px;
+    text-transform: uppercase;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.log_footer
+{
+    background-color: #272343;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+    border-top-left-radius: 100px;
+}
+
+
+.f_dummy
+{
+    width: 10vh;
+    height: 10vh;
+    background-color: #272343;
+    position: relative;
+    bottom: 59px;
+    float: right;
+}
+.f_dummy1
+{
+    position: relative;
+    bottom: 10vh;
+    right: -10vh;
+    width: 10vh;
+    height: 10vh;
+    background-color: #ffffff;
+    float: right;
+    border-bottom-right-radius: 100px;
+}

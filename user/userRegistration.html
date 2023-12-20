@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/userHeader.css">
+    <link rel="stylesheet" href="css/registration.css">
+    <link rel="stylesheet" href="css/ajaxResponse.css">
+</head>
+<body>
+    <div class="a_header">
+        <span class="cms">COMPLAINT MANAGEMENT SYSTEM</span>
+        <div class="topRightBox">Home</div>
+    </div>
+    <div class="regForm">
+        <div class="formHeading">User Registration</div>
+            <fieldset class="field">
+                <legend>First Name</legend>
+                <input type="text" name="fname" id="fname" placeholder="First Name" onkeypress="return(event.charCode > 64 && event.charCode < 91 ) || (event.charCode > 96 && event.charCode < 123 )" required>
+            </fieldset>
+            <fieldset class="field">
+                <legend>Last Name</legend>
+                <input type="text" name="lname" id="lname" placeholder="Last Name"  onkeypress="return(event.charCode > 64 && event.charCode < 91 ) || (event.charCode > 96 && event.charCode < 123 )" required>
+            </fieldset>
+            <fieldset class="field">
+                <legend>Contact Number</legend>
+                <input type="text" name="phone" id="phone" placeholder="Contact number" required>
+            </fieldset>
+            <fieldset class="field">
+                <legend>Gender</legend>
+                    <input type="radio" name="gender" id="gender" value="Male" checked="true"><label for="radioMale">Male</label>
+                    <input type="radio" name="gender" id="gender" value="Female"><label for="radioFemale">Female</label>
+                    <input type="radio" name="gender" id="gender" value="Others"><label for="radioOther">Other</label>
+            </fieldset>
+            <fieldset class="field">
+                <legend>Email</legend>
+                    <input type="email" name="email" id="email" placeholder="abc@example.com" required>
+            </fieldset>            
+            <fieldset class="field">
+                <legend>Address</legend>
+                    <input type="text" name="Street" id="Street" placeholder="Street">
+                    <input type="text" name="district" id="district" placeholder="District">
+                    <input type="number" name="pincode" id="pincode" placeholder="Pincode">
+            </fieldset>
+            <div class="submit-btn">
+                Already Registered Please <a href="login_reviewer.php">LOGIN</a>
+                <input type="submit" value="Register" name="register" onclick = "userReg()">
+            </div>
+        <div id="msg"></div>
+    </div>
+    <div class="a_footer">
+        <span class="copyright">&copy; 2023 CMS All rights reserved.</span>
+    </div>
+</body>
+<script src="js/userRegistration.js"></script>
+</html>

@@ -1,0 +1,245 @@
+.actionContainer {
+    display: flex;
+    width: 100%;
+}
+
+.action {
+    width: 170vh;
+    height: 79vh;
+    margin-top: 0.5vh;
+    padding: 10px;
+}
+
+.dash {
+    width: 325px;
+    /* background: aqua; */
+    font-size: 18px;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+.actionHeading{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.tab {
+    display: none;
+}
+
+.tab {
+    width: 100%;
+    padding: 5px;
+}
+
+.active {
+    background-color: #bae8e8;
+    color: #272343;
+}
+
+.form{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    height: 70vh;
+}
+
+.profileHead{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+}
+.profile{
+    padding: 0 10px;
+}
+
+.profile_table{
+    width: 100%;
+    height: 35vh;
+    padding: 15px;
+}
+
+
+.formheading{
+    width: 100%;
+    padding: 10px;
+    /* background-color: aliceblue; */
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.RegComplaint{
+    width: 60%;
+    height: 60%;
+    font-size: 18px;
+    /* background-color: whitesmoke; */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 25px;
+    border: 1px solid black;
+}
+td{
+    padding: 10px;
+}
+input[type="text"],select{
+    background: none;
+    border: 1px solid #272343;
+    width: 100%;
+    height: 25px;
+}
+
+textarea{
+    background: none;
+    border: 1px solid #272343;
+    width: 100%;
+}
+
+#submit{
+    text-align: center;
+    padding: 10px 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: limegreen;
+    float: right;
+}
+
+
+
+
+
+
+.complaintListHeading{
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: #272343;
+    color: #bae8e8;
+    border-bottom: 2px solid #bae8e8;
+    font-weight: bold;
+    width: 1200px;
+}
+.listHeading,.listHeading_15,.listHeading_25{
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 10px;
+}
+
+.listHeading{
+    width: 120px;
+}
+
+.listHeading_15{
+    width: 180px;
+}
+
+
+.listHeading_25{
+    width: 300px;
+}
+
+
+.complaintListData{
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: #bae8e8;
+    width: 1200px;
+}
+
+.listData,.listData_15,.listData_25{
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+}
+
+.listData{
+    width: 120px;
+}
+
+.listData_15{
+    width: 180px;
+}
+
+.listData_25{
+    width: 300px;
+}
+.del_btn{
+    border: none;
+    background-color: none;
+    border: 1px solid white;
+    background-color: crimson;
+    padding: 5px 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.del_btn>a{
+    text-decoration: none;
+    color: white;
+}
+
+.view_btn{
+    border: none;
+    background-color: none;
+    border: 1px solid white;
+    background-color: #272343;
+    padding: 5px 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.Report{
+    width: 50%;
+    height: 40%;
+    font-size: 18px;
+    /* background-color: whitesmoke; */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 25px;
+    border: 1px solid black;
+}
+
+input[type="text"]{
+    background: none;
+    border: 1px solid #272343;
+    width: 100%;
+    height: 35px;
+}
+
+textarea{
+    background: none;
+    border: 1px solid #272343;
+    width: 100%;
+}
+
+#submit{
+    text-align: center;
+    padding: 10px 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: limegreen;
+    float: right;
+}
+
+.cpass_tab{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: beige;
+    border: 1px solid;
+    width: 500px;
+    font-size: 18px;
+}
+
